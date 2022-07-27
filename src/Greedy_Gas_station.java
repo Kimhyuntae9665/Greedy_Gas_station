@@ -30,7 +30,9 @@ public class Greedy_Gas_station {
 		for(int i=0;i<N-1;i++) {
 			
 			if(min_price>price[i]) { //기존의 min_price보다 더 싼 min_price가 나와야 새로운 주유소의 기름을 넣는다.
-				//min_price가 갱신이 되지 않으면 기존의 min_price 주유소 기름을 넣는 걸로 
+				
+				//min_price가 갱신이 되지 않으면 기존의 min_price 주유소 기름을 넣었던 걸로 
+				// 크게 크게 보는게 필요 
 				min_price = price[i];
 			}
 			
